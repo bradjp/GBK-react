@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import {Layout, Navigation, Content, Drawer, Header} from 'react-mdl';
+import Homepage from './components/homepage';
 
 class App extends Component {
   render() {
@@ -25,6 +26,7 @@ class App extends Component {
               </Drawer>
               <Content>
                   <div className="page-content" />
+                  <Homepage/>
               </Content>
           </Layout>
       </div>
